@@ -1,3 +1,29 @@
+* {
+	outline: 1px solid purple;
+}
+
+
 .mainContent {
 	padding-top: 50px;
+	min-height: 600px;
+}
+
+.finishedMonsterSection {
+	min-height: 500px;
+}
+
+.monsterFrame{
+	min-height:400px;
+	margin-top:25px;
+	margin-bottom: 25px;
+}
+
+.monsterBodiesAndPartsSection {
+	min-height: 500px;
+}
+
+
+
+.tab-pane {
+	height:380px;
 }
