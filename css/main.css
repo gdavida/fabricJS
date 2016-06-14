@@ -5,25 +5,31 @@
 
 .mainContent {
 	padding-top: 50px;
-	min-height: 600px;
+	min-height: 700px;
 }
 
 .finishedMonsterSection {
-	min-height: 500px;
+	min-height: 600px;
 }
 
 .monsterFrame{
-	min-height:400px;
+	min-height:00px;
 	margin-top:25px;
 	margin-bottom: 25px;
 }
 
 .monsterBodiesAndPartsSection {
-	min-height: 500px;
+	min-height: 600px;
+	padding-top: 25px;
 }
 
 
 
 .tab-pane {
-	height:380px;
+	height:480px;
+}
+
+canvas {
+	padding: 0 !important;
+	margin: 0 !important;
 }

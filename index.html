@@ -46,42 +46,79 @@
       <div class="row">
         <h1>Make A Monster</h1>
         <div class="col-md-6 finishedMonsterSection">
-          <div class="col-xs-12 monsterFrame">
-            
-          </div>
+          <canvas id="c" width="500px" height="380px" class="monsterFrame">
+              
+          </canvas>
         </div>
-
-
-
-
-
-
-
-        <div class="col-md-6 monsterBodiesAndPartsSection">
-              <h2>Dynamic Tabs</h2>
+    <div class="col-md-6 monsterBodiesAndPartsSection">
               <ul class="nav nav-tabs nav-justified">
                 <li class="active"><a data-toggle="tab" href="#home">Bodies</a></li>
                 <li><a data-toggle="tab" href="#menu1">Eyes</a></li>
                 <li><a data-toggle="tab" href="#menu2">Mouths</a></li>
                 <li><a data-toggle="tab" href="#menu3">Extras</a></li>
               </ul>
-
-              <div class="tab-content">
-                <div id="home" class="tab-pane fade in active">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <div class="tab-content card">
+                <div id="bodies" class="tab-pane fade in active">
+                  <div class="col-md-3 card">
+                    <img id="blueBody" src="images/monsterBodies/blue.svg">
+                  </div>
+                  <div class="col-md-3 card">
+                    <img id="coralBody" src="images/monsterBodies/coral.svg">
+                  </div>
+                  <div class="col-md-3 card">
+                    <img id="blackBody" src="images/monsterBodies/black.svg">
+                  </div>
+                  <div class="col-md-3 card">
+                    <img id="brownBody" src="images/monsterBodies/brown.svg">
+                  </div>
+                  <div class="col-md-3 card">
+                    <img id="peachBody" src="images/monsterBodies/peach.svg">
+                  </div>
+                  <div class="col-md-3 card">
+                    <img id="redBody" src="images/monsterBodies/red.svg">
+                  </div>
+                  <div class="col-md-3 card">
+                    <img id="tealBody" src="images/monsterBodies/teal.svg">
+                  </div>
+                  <div class="col-md-3 card">
+                    <img id="purpleBody" src="images/monsterBodies/purple.svg">
+                  </div>
+                  <div class="col-md-3 card">
+                    <img id="yellowBody" src="images/monsterBodies/yellow.svg">
+                  </div>
+                  <div class="col-md-3 card">
+                    <img id="greenBody" src="images/monsterBodies/green.svg">
+                  </div>
+                  <div class="col-md-3 card">
+                    <img id="rainbowBody" src="images/monsterBodies/rainbow.svg">
+                  </div>
+                  <div class="col-md-3 card">
+                    <img id="orangeBody" src="images/monsterBodies/orange.svg">
+                  </div>
+                  <div class="col-md-3 card">
+                    <img id="greyBody" src="images/monsterBodies/grey.svg">
+                  </div>
+                  <div class="col-md-3 card">
+                    <img id="whiteBody" src="images/monsterBodies/white.svg">
+                  </div>
+                  <div class="col-md-3 card">
+                    <img id="tanBody" src="images/monsterBodies/tan.svg">
+                  </div>
+                  <div class="col-md-3 card">
+                    <img id="sunsetBody" src="images/monsterBodies/sunset.svg">
+                  </div>
                 </div>
-                <div id="menu1" class="tab-pane fade">
+                <div id="eyes" class="tab-pane fade">
                  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
-                <div id="menu2" class="tab-pane fade">
+                <div id="mouths" class="tab-pane fade">
                   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
                 </div>
-                <div id="menu3" class="tab-pane fade">
+                <div id="extras" class="tab-pane fade">
                   <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                 </div>
               </div>
-        </div>
-
+            </div>
     </div><!-- /.container -->
 
 
@@ -95,5 +132,7 @@
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/fabric.js"></script>
   </body>
 </html>
